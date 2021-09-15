@@ -39,7 +39,7 @@ Logo et Nav
 {
 display: flex;
 justify-content: space-between;
-margin-right: 300px;
+width: 90%;
 }
 
 .logo
@@ -65,7 +65,7 @@ flex-direction: row;
 .menuhebergements
 
 {
-border-top: 2px solid #0065FC;
+border-top: 2px solid transparent;
 padding-top: 40px;
 color: #0065FC;
 width: 150px;
@@ -395,7 +395,7 @@ Les plus polulaires
 background-color: #F2F2F2;
 display: flex;
 flex-wrap: wrap;
-width: 400px;
+width: 21%;
 height: 590px; 
 margin-left: 40px;
 padding: 15px;
@@ -498,7 +498,7 @@ Activités à Marseille
 background-color: white;
 display: flex;
 flex-wrap: wrap;
-width: 1370px;
+width: 80%;
 height: 620px; 
 margin-left: 250px;
 margin-block-start: 50px;
@@ -512,7 +512,7 @@ border-radius: 20px 20px 20px 20px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;;
-    width: 1370px;
+    width: 90%;
 }
 
 .blockvieuxport
@@ -813,3 +813,354 @@ Responsive
 -------------
 */
 
+@media screen and (max-width: 3000px)
+
+{
+   .logoetnav
+   {
+   width: 90%;
+   max-width: 1800px;
+   }
+}
+
+@media screen and (max-width: 3000px)
+
+{
+   .activites
+   {
+   max-width: 1500px;
+   }
+}
+
+@media screen and (max-width: 3000px)
+
+{
+   .populaires
+   {
+   width: 90%;
+   max-width: 400px;
+   }
+}
+
+
+@media screen and (min-width: 877px) and (max-width: 1860px)
+
+{
+    .populaires
+    {
+    margin-block-start: 200px;
+    margin-left: 250px;
+    }
+ }
+
+ @media screen and (min-width: 877px) and (max-width: 1860px)
+
+ {
+     .hebergements
+     {
+     height: 800px;
+     margin-block-start: 200px;
+     margin-left: 250px;
+     }
+  }
+
+  @media screen and (min-width: 877px) and (max-width: 1745px)
+
+  {
+      footer
+      {
+      margin-block-start: 400px;
+      margin-left: 250px;
+      }
+   }
+
+
+
+ @media screen and (max-width: 877px)
+
+ {
+    .blockdesactivites
+    {
+    flex-direction: column;
+    margin-block-start: 100px;
+    margin-left: -300px;
+    }
+ }
+
+@media screen and (max-width: 877px)
+
+{
+   .hebergements
+   {
+   margin-block-start: 50px;
+   background-color: transparent;
+
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .blockhotel
+   {
+   width: 350px;
+   margin-block-start: 20px;
+   flex-direction: column;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   footer
+   {
+   height: 500px;
+   width: 400px;
+   margin-block-start: -1100px;
+   }
+}
+@media screen and (max-width: 877px)
+
+{
+   .activites
+   {
+   display: flex;
+   flex-direction: column;
+   margin-block-start: 1000px;
+   width: 1000px;
+   height: 1000px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blockhebergementetpopulaires
+   {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   }
+}
+@media screen and (max-width: 877px)
+
+{
+   .allblockfooter
+   {
+   display: flex;
+   flex-direction: column;
+   margin-block-start: 500%;
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .populaires
+   {
+   margin-left: 250px;
+   width: 355px;
+
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .blockvieuxport
+   {
+    width: 350px;
+    height: 250px;
+    margin-block-start: 20px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites1
+   {
+    width: 350px;
+    height: 200px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blockfortetiles
+   {
+    width: 350px;
+    height: 600px;
+    margin-left: 0px;
+    justify-content: space-evenly;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blockfort
+   {
+    width: 350px;
+    height: 200px;
+    margin-block-start: 20px;
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites2
+   {
+    width: 350px;
+    height: 200px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blockiles
+   {
+    width: 350px;
+    height: 250;
+    margin-block-start: 20px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites3
+   {
+    width: 350px;
+    height: 200px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blockparc
+   {
+    width: 350px;
+    height: 250px;
+    margin-block-start: 20px;
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites4
+   {
+    width: 350px;
+    height: 200px;
+   }
+}
+
+
+ @media screen and (max-width: 877px)
+
+    {
+       .blocknotredameetlongchamp
+       {
+        width: 350px;
+    height: 550px;
+    
+       }
+    }
+
+@media screen and (max-width: 877px)
+
+{
+   .blocknotredame
+
+   {
+    width: 350px;
+    height: 250px;
+
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites5
+   {
+    width: 350px;
+    height: 250px;
+
+   }
+}
+
+
+@media screen and (max-width: 877px)
+
+{
+   .blocklongchamp
+   {
+    width: 350px;
+    height: 250px;
+
+   }
+}
+
+
+
+@media screen and (max-width: 877px)
+
+{
+   .imagesactivites6
+   {
+    width: 350px;
+    height: 200px;
+
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .filtres
+   {
+    margin-left: 0px;
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .iconesfiltres
+   {
+   flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .filtreseticones
+   {
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 877px)
+
+{
+   .image
+   {
+  width: 340px;
+   }
+}

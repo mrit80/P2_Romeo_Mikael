@@ -1380,3 +1380,184 @@ display: block;
 
   }  
  }
+
+ @media screen and (max-width: 400px) 
+ 
+ { 
+ .blockvieuxport
+
+{
+
+display: flex;
+flex-direction: column;
+height: 200px;
+width: 250px;
+border-radius: 20px 20px 20px 20px;
+background-color: white;
+}
+
+.imagesactivites1
+
+{
+height: 150px;
+width: 250px;
+border-style: solid;
+border-radius: 20px 20px 0px 0px;
+object-fit: cover;
+border:0px solid transparent;
+}
+
+.blockfortetiles
+
+{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+justify-content: space-between;
+height: 450px;
+margin-left: 0px;
+margin-right: 20px;
+}
+
+.blockfort
+
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 200px; 
+    width: 250px;
+}
+
+.imagesactivites2
+
+{width: 250px;;      
+    border-style: solid;
+ 
+    height: 150px;
+    object-fit: cover;      
+    border-radius: 20px 20px 0 0;
+    border:0px solid transparent;
+    
+
+}
+
+.blockiles
+
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 200px;
+}
+
+.imagesactivites3
+
+{width: 250px;;      
+    border-style: solid;
+    height: 150px;
+    object-fit: cover;      
+    border-radius: 20px 20px 0 0;
+   
+    border:0px solid transparent;
+}
+
+
+.blockparc
+
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.imagesactivites4
+{
+    height: 150px;
+    width: 250px;
+    border-style: solid;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    border:0px solid transparent;
+    }
+
+.blocknotredameetlongchamp
+
+{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+justify-content: space-between;
+height: 450px;
+}
+
+.blocknotredame
+
+{
+display: flex;
+width: 250px;
+flex-direction: column;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+height: 200px;
+}
+
+.imagesactivites5
+
+{
+width: 250px;;      
+border:0px solid transparent;      
+height: 150px;
+object-fit: cover;      
+border-radius: 20px 20px 0 0;
+margin-block-end: -15px;    
+}
+
+.blocklongchamp
+
+{
+display: flex;
+width: 250px;
+flex-direction: column;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+height: 200px;
+}
+
+.imagesactivites6
+
+{
+width: 250px;;      
+border: 0px solid transparent;      
+height: 150px;
+object-fit: cover;      
+border-radius: 20px 20px 0 0;
+margin-block-end: -15px;    
+}
+
+.blockdesactivites {
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.hebergements {
+    width: 94%;
+    min-width: 280px;
+ margin: 20px;
+}
+
+.populaires {
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+    min-width: 280px;
+}
+
+ }
